@@ -1,0 +1,27 @@
+[options]
+  force_global_config = true
+  autocomplete_method = "coc"
+
+[[layers]]
+  name = 'lang#scala'
+  enable = false
+
+[[layers]]
+  name = 'git'
+
+# Must disable becouse coc
+[[layers]]
+  name = 'autocomplete'
+  enable = false
+
+[[custom_plugins]]
+  name = 'derekwyatt/vim-scala'
+  merged = 0
+
+[[custom_plugins]]
+  name = 'neoclide/coc.nvim'
+  merged = 0
+
+[[custom_plugins]]
+  name = 'SirVer/ultisnips'
+  merged = 0
